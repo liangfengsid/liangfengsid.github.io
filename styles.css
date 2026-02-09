@@ -276,13 +276,16 @@ body {
     background: #f8f9fa;
     border-left: 4px solid #667eea;
     border-radius: 4px;
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: all 0.3s ease;
     line-height: 1.5;
 }
 
 .pub:hover {
-    transform: translateX(5px);
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.08) 0%, rgba(118, 75, 162, 0.08) 100%);
+    border-left-color: #764ba2;
+    border-left-width: 5px;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
+    /* transform: translateX(2px); */
 }
 
 .pub label {
