@@ -1,7 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>LIANG Feng - NJU, HKU, SMBU</title>
-</head>
+<link rel="stylesheet" href="styles.css">
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WPFTTH8BTH"></script>
@@ -12,263 +15,307 @@
 
   gtag('config', 'G-WPFTTH8BTH');
 </script>
+</head>
 
-<body style="background-color:#ffffff; width:80%;margin: 0 auto;">
-<style>
-	.conf {
-		background-color: #DAE8FC;
-		padding: 0 5pt;
-		border-radius: 5pt;
-	}
-	.journal {
-		background-color:#D5E8D4;
-		padding: 0 5pt;
-		border-radius: 5pt;
-	}
-	.arxiv {
-		background-color:#E1D5E7;
-		padding: 0 5pt;
-		border-radius: 5pt;
-	}
-	.pub {
-		margin: 8pt 0;
-	}
-</style>
+<body>
 
-<div style="margin:2% 10%;">
+<div class="container">
+    <div class="header">
+        <img src="img/cv.jpg" alt="Feng Liang">
+        <div class="header-content">
+            <h1>Dr. Feng LIANG (梁锋)</h1>
+            <div class="header-main-info">
+                <div class="header-position">
+                    <div class="position-title">Associate Professor, Doctoral Supervisor</div>
+                    <div class="position-institution">
+                        <a href="https://ai.smbu.edu.cn/" target="_blank">Artificial Intelligence Research Institute</a>, 
+                        <a href="https://en.smbu.edu.cn/" target="_blank">Shenzhen MSU-BIT University</a> (SMBU)
+                    </div>
+                </div>
+                <div class="header-contact">
+                    <div class="contact-item">
+                        <span class="contact-label">Email:</span>
+                        <span>liangfengsid \at gmail \dot com</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">Email:</span>
+                        <span>fliang \at smbu \dot edu \dot cn</span>
+                    </div>
+                </div>
+            </div>
+            <div class="header-background">
+                <div class="background-item">Former founder & CTO, Shenzhen Qmaple Technology Co., Ltd</div>
+                <div class="background-item">Previously a senior research engineer at Huawei</div>
+                <div class="background-item">Ph.D. in Computer Science, The University of Hong Kong (2012-2017)</div>
+                <div class="background-item">B.Eng. in Software Engineering, Nanjing University (2008-2012)</div>
+                <div class="background-item">PhD Supervisor: <a href="http://i.cs.hku.hk/~fcmlau" target="_blank">Prof. Francis C.M. Lau</a></div>
+            </div>
+        </div>
+    </div>
 
-<div style="margin:2% 0">
-	<div style="width:20%;float:right">
-		<span style="float:right">Last updated: 22-Oct-2025</span><br/>
-		<img style="width:150px;float:right" src="img/cv.jpg"/>
-	</div>
+    <nav class="navbar">
+        <a href="#research-interest">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#patents">Patents</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#activities">Activities</a>
+        <a href="#awards">Awards</a>
+        <a href="#events">Events</a>
+    </nav>
 
-	<div style="width:80%">
-	<span><b>Dr. Feng LIANG (梁锋)</b></span>
-	<br/>
-	<span>Email: liangfengsid \at gmail \dot com or fliang \at smbu \dot edu \dot cn</span>
-	<br/>
-	<span>Associate Professor in <a href="https://ai.smbu.edu.cn/" target="_blank">Artificial Intelligence Research Institute</a>, <a href="https://en.smbu.edu.cn/" target="_blank">Shenzhen MSU-BIT University</a> (SMBU)</span>
-	<br/>
-	<span>Doctoral Supervisor</span>
-	<br/>
-	<br/>
-	<span>Former founder&CTO, Shenzhen Qmaple Technology Co., Ltd and previously a senior research engineerer in Huawei</span>
-	<br/>
-	<span>Obtained Ph.D. Degree in computer science from The University of Hong Kong (2012-2017)</span>
-	<br/>
-	<span>Obtained B.Eng. Degree in software engineering from Nanjing University (2008-2012)</span>
-	<br/>
-	<span>PhD Supervisor: <a href="http://i.cs.hku.hk/~fcmlau" target="_blank">Prof. Francis C.M. Lau</a></span>
-	</div>
+    <div class="content">
+        <div class="section" id="research-interest">
+            <div class="section-title">Research Interest</div>
+            <div class="section-content">
+                Machine learning systems, distributed systems and databases, large-scale deep learning
+            </div>
+        </div>
 
-	
-	
+        <div class="section" id="publications">
+            <div class="section-title">Selected Publications</div>
+            <div class="section-content">
+                <div style="margin-bottom: 15px;">(* Equal contribution, # Corresponding author) 
+                    <span class="badge journal">Journal</span> <span class="badge conf">Conference</span> <span class="badge arxiv">Preprint</span>
+                </div>
+                
+                <!--
+                
+                <div class="pub"><label class="arxiv">Arxiv</label> &#x2022; Y. Zhang, <b>F. Liang#</b>, X. Zhang, C. Li, X. Fan, X. Hu#, 
+                    "Tri-LoRAMoE: Tackling Multi-Task Conflict via a Task-Guided Two-Stage Training Paradigm with General Knowledge Personalization", <i></i> 2025. <b></b></div>
+                <div class="pub"><label class="arxiv">Arxiv</label> &#x2022; Z. Deng, C. Li, Y. Zhang, <b>F. Liang#</b>, X. Zhang, X. Hu#, 
+                    "Sparse Topology Pairwise Scoring for Large-Scale Multi-Agent Reinforcement Learning", <i></i> 2025. <b></b></div>
+                
+                <div class="pub"><label class="arxiv">Arxiv</label> &#x2022; J. Chen, X. Yuan, W. Wang, Y. Li, L. Dong, <b>F. Liang</b>, C. Shi, X. Hu, 
+                    "WatermarkLab: A Comprehensive Framework for Robust Image Watermarks Benchmarking and Development", <i></i> 2025. <b></b></div>
+                <div class="pub"><label class="arxiv">Arxiv</label> &#x2022; S. Li, G. Yuan, C. Li, <b>F. Liang</b>, R. Zeng, E. C. H. Ngai, X. Hu, 
+                    "Beyond IDs: a Collaborative Fine-Grained Semantic-Aware Framework for Multimodal Sequential Recommendation", <i></i> 2025. <b></b></div>
+                <div class="pub"><label class="arxiv">Arxiv</label> &#x2022; Y. Qin, H. Duan, <b>F. Liang</b>, X. Fan, C. Zhang, X. Hu, 
+                    "'What I Sign Is Not What I See': Towards Explainable and Trustworthy Cryptocurrency Wallet Signatures", <i></i> 2025. <b></b></div>
+                <div class="pub"><label class="arxiv">Arxiv</label> &#x2022; <b>F. Liang</b>, Y. Xu, H. Duan, C. Chen, X. Hu, 
+                    "HetMG: Rethinking Hybrid-Parallel Training in Heterogeneous-Capacity Clusters", <i></i> 2025. <b></b></div>
+                <div class="pub"><label class="arxiv">Arxiv</label> &#x2022; J. Zhu, D. Fan#, J. Zhuang, X. Li, X. He, H. Gong, Z. Liu, D. Cai, <b>F. Liang#</b>, G. Li#, J. Hu#, 
+                    "EndoAgent: A Hierarchical Multi-Modal Agent System for Capsule Endoscopy Video Analysis", <i></i> 2025. <b></b></div>
+                <div class="pub"><label class="arxiv">Arxiv</label> &#x2022; J. Zhang, <b>F. Liang#</b>, Y. Zhang, Z. Shangguan, Z. Li, X. Fan, V. C. M. Leung, G. Li#， X. Hu#, 
+                    "ROARS: A Cloud-Based Resolution-Native Framework for Large-Scale Remote Sensing Multimodal Analysis", <i></i> 2026. <b></b></div>
+                <div class="pub"><label class="arxiv">Arxiv</label> &#x2022; S. Li, G. Yuan, J. Xu, C. Li, <b>F. Liang</b>, R. Zeng, E. C. H. Ngai, X. Hu, 
+                    "MoCoRec: Multimodal Semantic Co-occurrence Aware Sequential Recommendation", <i></i> 2026. <b></b></div>
+                <div class="pub"><label class="arxiv">Arxiv</label> &#x2022; Q. Yang, <b>F. Liang</b>, Z. Deng, Y. Zhang, X. Hu, 
+                    "PatMask: A Pluggable Adversarial Topology Mask for Multi-Agent Reinforcement Learning under Communication Disconnection", <i></i> 2026. <b></b></div>
+                
+                    -->
+                <div class="pub">
+                    <div class="pub-header"><label class="arxiv">Arxiv</label> <a href="https://www.arxiv.org/abs/2602.00505" target="_blank">link</a> <a href="https://www.arxiv.org/pdf/2602.00505" target="_blank">pdf</a> <a href="https://github.com/DistriAI/SparseCut" target="_blank">code</a></div>
+                    <div class="pub-authors">J. Zhang, <b>F. Liang#</b>, Y. Zhang, W. Wang, R. Zeng, X. Hu#</div>
+                    <div class="pub-title">"Sparse Shortcuts: Facilitating Efficient Fusion in Multimodal Large Language Models"</div>
+                    <div class="pub-venue"></div>
+                </div>
+                <div class="pub">
+                    <div class="pub-header"><label class="arxiv">Arxiv</label> <a href="https://arxiv.org/abs/2406.08115" target="_blank">link</a> <a href="https://arxiv.org/pdf/2406.08115.pdf" target="_blank">pdf</a></div>
+                    <div class="pub-authors"><b>F. Liang</b>, Z. Zhang, H. Lu, C. Li, V. C. M. Leung, Y. Guo, and X. Hu</div>
+                    <div class="pub-title">"Resource Allocation and Workload Scheduling for Large-Scale Distributed Deep Learning: A Survey"</div>
+                    <div class="pub-venue"></div>
+                </div>
+                <div class="pub">
+                    <div class="pub-header"><label class="arxiv">Arxiv</label> <a href="https://arxiv.org/abs/2404.06114" target="_blank">link</a> <a href="https://arxiv.org/pdf/2404.06114.pdf" target="_blank">pdf</a></div>
+                    <div class="pub-authors"><b>F. Liang</b>, Z. Zhang, H. Lu, V. C. M. Leung, Y. Guo, and X. Hu</div>
+                    <div class="pub-title">"Communication-Efficient Large-Scale Distributed Deep Learning: A Comprehensive Survey"</div>
+                    <div class="pub-venue"></div>
+                </div>
+                <div class="pub">
+                    <div class="pub-header"><label class="arxiv">Arxiv</label> <a href="https://arxiv.org/abs/2408.08769" target="_blank">link</a> <a href="https://arxiv.org/pdf/2408.08769.pdf" target="_blank">pdf</a></div>
+                    <div class="pub-authors">D. Chen, F. Fang, S. Ni, <b>F. Liang</b>, R. Xu, M. Yang, C. Li</div>
+                    <div class="pub-title">"Lower Layer Matters: Alleviating Hallucination via Multi-Layer Fusion Contrastive Decoding with Truthfulness Refocused"</div>
+                    <div class="pub-venue"></div>
+                </div>
+
+                <div class="pub">
+                    <div class="pub-header"><label class="conf">ICASSP'26</label></div>
+                    <div class="pub-authors">R. Zeng, Y. Wang, Y. Zhuo, <b>F. Liang</b>, H. Duan, H. Li</div>
+                    <div class="pub-title">"Text Semantics-Guided Dual-Teacher Knowledge Distillation for Partially Relevant Video Retrieval"</div>
+                    <div class="pub-venue"><i>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</i>, Barcelona, Spain, May 4-8, 2026, to appear. (<b>CCF-B</b>, AR: 40%)</div>
+                </div>
+                <div class="pub">
+                    <div class="pub-header"><label class="conf">ICDE'26</label> <a href="paper/eddie_icde25.pdf" target="_blank">pdf</a> <a href="https://github.com/quanjnq/Eddie" target="_blank">code</a></div>
+                    <div class="pub-authors">T. Li*, <b>F. Liang*</b>, J. Quan, Z. Yang, T. Wang, R. Huang, X. Hu, M. Li, H. Dai</div>
+                    <div class="pub-title">"Robust Index Benefit Estimation via Hierarchical and Two-dimensional Feature Representation"</div>
+                    <div class="pub-venue"><i>42nd IEEE International Conference on Data Engineering (ICDE)</i>, Montréal, Canada, May 4-8, 2026, to appear. (<b>CCF-A</b>)</div>
+                </div>
+                <div class="pub">
+                    <div class="pub-header"><label class="conf">ICCV'25</label> <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_FedPall_Prototype-based_Adversarial_and_Collaborative_Learning_for_Federated_Learning_with_ICCV_2025_paper.html" target="_blank">link</a> <a href="paper/fedpall_iccv25.pdf" target="_blank">pdf</a> <a href="https://github.com/DistriAI/FedPall" target="_blank">code</a></div>
+                    <div class="pub-authors">Y. Zhang, <b>F. Liang#</b>, G. Yuan, M. Yang, C. Li, X. Hu#</div>
+                    <div class="pub-title">"FedPall: Prototype-based Adversarial and Collaborative Learning for Federated Learning with Feature Drift"</div>
+                    <div class="pub-venue"><i>International Conference on Computer Vision (ICCV)</i>, Hawaii, USA, Oct 19-23, 2025. (<b>CCF-A</b>, AR: 24%)</div>
+                </div>
+                <div class="pub">
+                    <div class="pub-header"><label class="conf">AAAI'25</label> <a href="https://doi.org/10.1609/aaai.v39i2.32135" target="_blank">link</a> <a href="./paper/EAILLM_aaai25.pdf" target="_blank">pdf</a></div>
+                    <div class="pub-authors">H. Lu, J. Chen, <b>F. Liang</b>, M. Tan, R. Zeng, and X. Hu</div>
+                    <div class="pub-title">"Understanding Emotional Body Expressions via Large Language Models"</div>
+                    <div class="pub-venue"><i>39th Annual AAAI Conference on Artificial Intelligence (AAAI)</i>, Philadelphia, USA, Feb 25 - Mar 4, 2025. (<b>CCF-A</b>, AR: 23.4%, oral)</div>
+                </div>
+                <div class="pub">
+                    <div class="pub-header"><label class="conf">EDBT'25</label> <a href="https://doi.org/10.48786/edbt.2025.26" target="_blank">pdf</a> <a href="https://github.com/ncols-bytes/taste.git" target="_blank">code</a></div>
+                    <div class="pub-authors">T. Li*, <b>F. Liang*</b>, J. Quan, C. Huang, T. Wang, R. Huang, J. Wu, and X. Hu</div>
+                    <div class="pub-title">"Taste: Towards Practical Deep Learning-based Approaches for Semantic Type Detection in the Cloud"</div>
+                    <div class="pub-venue"><i>28th International Conference on Extending Database Technology (EDBT)</i>, pp. 324-336, Barcelona, Spain, Mar 25-28, 2025. (<b>CCF-B</b>, AR: 20.8%)</div>
+                </div>
+                <div class="pub">
+                    <div class="pub-header"><label class="conf">ACSAC'17</label> <a href="https://doi.org/10.1145/3134600.3134607" target="_blank">link</a> <a href="./paper/acsac17-kakute.pdf" target="_blank">pdf</a> <a href="http://github.com/hku-systems/kakute" target="_blank">code</a></div>
+                    <div class="pub-authors">J. Jiang, S. Zhao, D. Alsayed, Y. Wang, H. Cui, <b>F. Liang</b>, and Z. Gu</div>
+                    <div class="pub-title">"Kakute: A Precise, Unified Information Flow Analysis System for Big-data Security"</div>
+                    <div class="pub-venue"><i>33rd Annual Computer Security Applications Conference (ACSAC)</i>, Orlando, USA, 2017. (<b>CCF-B, *Distinguished Paper Award</b>, AR: 19.8%)</div>
+                </div>
+                <div class="pub">
+                    <div class="pub-header"><label class="conf">HPDC'16</label> <a href="https://doi.org/10.1145/2907294.2907296" target="_blank">link</a> <a href="./paper/bashuffler_hpdc16.pdf" target="_blank">pdf</a></div>
+                    <div class="pub-authors"><b>F. Liang</b> and F.C.M. Lau</div>
+                    <div class="pub-title">"BAShuffler: Maximizing Network BAndwidth Utilization in the Shuffle of YARN"</div>
+                    <div class="pub-venue"><i>25th ACM Symposium on High-Performance Parallel and Distributed Computing (HPDC)</i>, Kyoto, Japan, May 31 - June 4, 2016. (<b>CCF-B</b>, AR: 22.5%)</div>
+                </div>
+                <div class="pub">
+                    <div class="pub-header"><label class="conf">IPDPS'15</label> <a href="https://doi.org/10.1109/IPDPS.2015.17" target="_blank">link</a> <a href="./paper/SMapReduce_final.pdf" target="_blank">pdf</a></div>
+                    <div class="pub-authors"><b>F. Liang</b> and F.C.M. Lau</div>
+                    <div class="pub-title">"SMapReduce: Optimising Resource Allocation by Managing Working Slots at Runtime"</div>
+                    <div class="pub-venue"><i>29th IEEE International Parallel & Distributed Processing Symposium (IPDPS)</i>, Hyderabad, India, May 25-29, 2015. (<b>CCF-B</b>, AR: 22.0%)</div>
+                </div>
+
+                
+                <div class="pub">
+                    <div class="pub-header"><label class="journal">CGH</label> <a href="paper/intelcape-cgh26.pdf">pdf</a></div>
+                    <div class="pub-authors">D. Fan*, Y. Mao*, <b>F. Liang*</b>, Z. Liu*, M. Wang*, H. Li, J. Tang, Y. Liu, Y. Qian, J. Chen, N. Wang, T. Yang, S. Tan, G. Li, F. GAO, J. Hu, X. Wu</div>
+                    <div class="pub-title">"INTELCAPE: A Deep Learning-Powered System for Automated, High-Accuracy Crohn's Disease Diagnosis via Capsule Endoscopy"</div>
+                    <div class="pub-venue"><i>Clinical Gastroenterology and Hepatology (CGH)</i>, 2026. <b>(Q1)</b></div>
+                </div>
+                <div class="pub">
+                    <div class="pub-header"><label class="journal">IoTJ</label> <a href="https://doi.org/10.1109/JIOT.2026.3652363" target="_blank">link</a> <a href="paper/fedsm_iotj26.pdf" target="_blank">pdf</a> <a href="https://github.com/DistriAI/FedSM" target="_blank">code</a></div>
+                    <div class="pub-authors">J. Zhang, Y. Xu, S. Li, <b>F. Liang#</b>, H. Duan, Y. Dong, V. C. M. Leung, X. Hu#</div>
+                    <div class="pub-title">"FedSM: Semantic-Guided Feature Mixup for Bias Reduction in Federated Learning with Long-Tail Data"</div>
+                    <div class="pub-venue"><i>IEEE Internet of Things Journal (IoTJ)</i>, 2026. <b>(CCF-C, Q1)</b></div>
+                </div>
+                <div class="pub">
+                    <div class="pub-header"><label class="journal">JBHI</label> <a href="https://doi.org/10.1109/JBHI.2025.3631045" target="_blank">link</a> <a href="paper/mochat_jbhi25.pdf" target="_blank">pdf</a></div>
+                    <div class="pub-authors">J. Mo, Y. Chen, R. Lin, Y. Ni, <b>F. Liang</b>, M. Zeng, X. Hu, and M. Li</div>
+                    <div class="pub-title">"MoChat: Joints-Grouped Spatio-Temporal Grounding Multimodal Large Language Model for Multi-Turn Motion Comprehension and Description"</div>
+                    <div class="pub-venue"><i>IEEE Journal of Biomedical and Health Informatics (JBHI)</i>, 2025. <b>(CCF-C, Q1)</b></div>
+                </div>
+                <div class="pub">
+                    <div class="pub-header"><label class="journal">IoTJ</label> <a href="https://doi.org/10.1109/JIOT.2025.3574456" target="_blank">link</a> <a href="paper/airSkeleton_iotj25.pdf" target="_blank">pdf</a></div>
+                    <div class="pub-authors">Z. Zhang, <b>F. Liang</b>, W. Wang, R. Zeng, V.C.M. Leung, and X. Hu</div>
+                    <div class="pub-title">"Skeleton-Based Pre-Training with Discrete Labels for Emotion Recognition in IoT Environments"</div>
+                    <div class="pub-venue"><i>IEEE Internet of Things Journal (IoTJ)</i>, vol. 12, no. 15, pp. 31856-31868, 2025. <b>(CCF-C, Q1)</b></div>
+                </div>
+                <div class="pub">
+                    <div class="pub-header"><label class="journal">IS</label> <a href="https://doi.org/10.1016/j.ins.2023.120022" target="_blank">link</a> <a href="https://arxiv.org/pdf/2311.14311" target="_blank">pdf</a> <a href="https://github.com/liangfengsid/relJoin" target="_blank">code</a></div>
+                    <div class="pub-authors"><b>F. Liang</b>, F.C.M. Lau, H. Cui, Y. Li, B. Lin, C. Li, and X. Hu</div>
+                    <div class="pub-title">"RelJoin: Relative-cost-based Selection of Distributed Join Methods for Query Plan Optimization"</div>
+                    <div class="pub-venue"><i>Information Sciences (IS)</i>, vol. 658, 2024. <b>(CCF-B, Q1<!--, IF: 8.1-->)</b></div>
+                </div>
+                <div class="pub">
+                    <div class="pub-header"><label class="journal">TNSM</label> <a href="https://doi.org/10.1109/TNSM.2018.2872066" target="_blank">link</a> <a href="paper/costWorkflow_tnsm18.pdf" target="_blank">pdf</a></div>
+                    <div class="pub-authors">W. Guo, B. Lin, G. Chen, Y. Chen, and <b>F. Liang</b></div>
+                    <div class="pub-title">"Cost-Driven Scheduling for Deadline-Based Workflow Across Multiple Clouds"</div>
+                    <div class="pub-venue"><i>IEEE Transactions on Network and Service Management (TNSM)</i>, vol. 15, no. 4, pp. 1571-1585, Dec. 2018. <b>(CCF-C, Q1<!--, IF:5.3-->)</b></div>
+                </div>
+                <div class="pub">
+                    <div class="pub-header"><label class="journal">TPDS</label> <a href="https://doi.org/10.1109/TPDS.2017.2756054" target="_blank">link</a> <a href="paper/confluence_tpds17.pdf" target="_blank">pdf</a></div>
+                    <div class="pub-authors"><b>F. Liang</b>, F.C.M. Lau, H. Cui, and C.-L. Wang</div>
+                    <div class="pub-title">"Confluence: Speeding Up Iterative Distributed Operations by Key-dependency-aware Partitioning"</div>
+                    <div class="pub-venue"><i>IEEE Transactions on Parallel and Distributed Systems (TPDS)</i>, 2018. <b>(CCF-A<!--, IF:5.3-->)</b></div>
+                </div>
+
+                <!--
+                <div>&#x2022; D. Liu, J. Chen, <b>F. Liang</b> and X. Fan, "A Performance Analysis for Hadoop under Heterogeneous Cloud Computing Environments", <i>Journal of Integration Technology</i>, Issue 4, 2012. [<a href="https://jcjs.siat.ac.cn/jcjsen/article/abstract/201211008?st=virtual&special_id=20201021190818001" target="_blank">link</a> | <a href="./paper/heterHadoop_jit12.pdf" target="_blank">pdf</a>]</div>
+                -->	
+            </div>
+        </div>
+
+        <div class="section" id="patents">
+            <div class="section-title">Patents</div>
+            <div class="section-content">
+                <div class="info-item">[PCT/CN] "Log Processing Method, Related Device, and System", LU Yuanfei, <b>LIANG Feng</b> and LIU Cunwei, owned by Huawei, Pub. No.: WO/2019/109953, June 2019.</div>
+                <div class="info-item">[PCT/CN] "Configuration Modification Method for Storage Cluster, Storage Cluster and Computer System", ZHOU Siyi, <b>LIANG Feng</b>, ZHI Yanan and HUANG Xihua, owned by Huawei, Pub. No.: WO/2019/085875, May 2019.</div>
+            </div>
+        </div>
+
+        <div class="section" id="teaching">
+            <div class="section-title">Teaching Experience</div>
+            <div class="section-content">
+                <div class="info-item">Programming Design and Practice, fall 2023</div>
+                <div class="info-item">Parallel and Distributed Programming, spring 2024</div>
+                <div class="info-item">Teaching assistant of Computer Architecture, Programming in C++, Operating System, Web Technology, 2012-2016</div>
+            </div>
+        </div>
+
+        <div class="section" id="activities">
+            <div class="section-title">Academic Activities</div>
+            <div class="section-content">
+                <div class="info-item">PC Member, The 40th Annual AAAI Conference on Artificial Intelligence (<a href="https://aaai.org/conference/aaai/aaai-26/" target="_blank">AAAI</a>) 2025-2026</div>
+                <div class="info-item">Tutorial Chair, The 16th IEEE International Conference on Cloud Computing Technology and Science (<a href="http://www.cloudcom2025.org/" target="_blank">CloudCom</a>) 2025</div>
+                <div class="info-item">Publicity Chair, 8th IEEE International Conference on Smart Internet of Things (<a href="https://www.ieee-smartiot.org/index.jsp" target="_blank">SmartIoT</a>) 2024</div>
+                <div class="info-item">TPC Member, 10th International Conference on Big Data Computing and Communications (<a href="https://bigcom2024.com/index.html" target="_blank">BIGCOM</a>) 2024</div>
+                <div class="info-item">TPC Member, 44th IEEE International Conference on Distributed Computing Systems (<a href="https://icdcs2024.icdcs.org/" target="_blank">ICDCS</a>), 2024</div>
+                <div class="info-item">Distinguished contributor, 19th EAI International Conference on Heterogeneous Networking for Quality, Reliability, Security and Robustness (<a href="https://qshine.eai-conferences.org/2023/" target="_blank">Qshine</a>), 2023</div>
+                <div class="info-item">TPC Member, The 2nd International Workshop on Social and Metaverse Computing and Networking (<a href="https://socialmeta2023.github.io/" target="_blank">SocialMeta</a>), 2023</div>
+                <div class="info-item">Session chair, the 11th WorkShop on High-Performance, Power-Aware Computing (IPDPS-HPPAC), 2015</div>
+                <!-- <div class="info-item">Reviewer of Journal of Interconnection Network (JOIN), 2013</div>
+                <div class="info-item">Reviewer of The 22nd IEEE International Conference on Parallel and Distributed Systems (ICPADS), 2016</div> -->
+            </div>
+        </div>
+
+        <div class="section" id="awards">
+            <div class="section-title">Awards and Grants</div>
+            <div class="section-content">
+                <div class="info-item">Overseas High-Caliber Personnel in Shenzhen, China</div>
+                <div class="info-item">Shenzhen Overseas Entrepreneurship Fund, 2020-2021</div>
+                <div class="info-item">Semi-finalists of the Innovation and Entrepreneurship Competition of Shenzhen, 2020</div>
+                <div class="info-item">Semi-finalists of the China Innovation and Entrepreneurship Competition for SMEs, 2019&2020, respectively</div>
+                <div class="info-item">TCPP Conference Travel Grant (2015)</div>
+                <div class="info-item">Postgraduate Scholarship of The University of Hong Kong, 2012-2016</div>
+                <div class="info-item">Outstanding Graduate, Nanjing University, 2012</div>
+                <div class="info-item">Excellent Award of the Innovation Cup, Software Institute, Nanjing University, 2011</div>
+                <div class="info-item">Excellent Student Award, Software Institute, Nanjing University, 2009&2010, respectively</div>
+                <div class="info-item">Second prize of People's Scholarship, and Second prize of Social Work Scholarship, Nanjing University, 2010</div>
+                <div class="info-item">Excellent Staff of Student Union, Software Institute, Nanjing University, 2010</div>
+                <div class="info-item">First prize of People's Scholarship, Nanjing University, 2009</div>
+            </div>
+        </div>
+
+        <div class="section" id="events">
+            <div class="section-title">Events</div>
+            <div class="section-content">
+                <div class="info-item">Program Chair of <a href="http://www.cs.hku.hk/ccc2014/index.html">Canadian Computing Competition Hong Kong Contest (CCC)</a>, 2014</div>
+                <div class="info-item">Web Master of <a target="_blank" href="http://www.lapcheecollege.hku.hk">Lap-Chee College</a>, The University of Hong Kong, 2013-2015</div>
+            </div>
+        </div>
+
+        <!--
+        <div class="section">
+            <div class="section-title">***New*** Open source project:</div>
+            <div class="section-content">
+                <h3>TensorOnSpark</h3> 
+                TensorOnSpark is a fast, scalable and reliable distributed framework for machine learning (deep learning). TensorFlow programs can run on Spark seamlessly with redundant distributed resources and high accuracy. It currently supports Python on Linux and Mac OS. The release and source and can be downloaded via Pypi and Github, respectly. 
+                <br/>
+                <a href="https://github.com/liangfengsid/tensoronspark" target="_blank">Github</a> &nbsp;&nbsp;&nbsp;
+                <a href="https://pypi.python.org/pypi/tensorspark/" target="_blank">Pypi Repository</a>
+            </div>
+        </div>
+        -->
+        <!--
+        <div class="section">
+            <div class="section-content">
+                <img src="img/flute.jpg"/>
+                <br/>
+                <span>Other interests: Painting, flute, soccer and dota.</span>
+            </div>
+        </div>
+        -->
+        <!-- <div>
+            <a title="Google Analytics Alternative" href="http://clicky.com/100968261"><img alt="Google Analytics Alternative" src="//static.getclicky.com/media/links/badge.gif" border="0"/></a>
+            <script src="//static.getclicky.com/js" type="text/javascript"></script>
+            <script type="text/javascript">try{ clicky.init(100968261); }catch(e){}</script>
+            <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100968261ns.gif" /></p></noscript>
+        </div> -->
+
+    </div>
 </div>
 
-<div>
-	<span><b>Research interest:</b> </span><span>Machine learning systems, distributed systems and databases,  large-scale deep learning</span>
-	<br/>
-	<!--<span><b>Recent Project: </b></span><span>Optimizing the shuffle performance of MapReduce by maximizing the network bandwidth utilization</span> -->
-
-	<p/>
-
-	<div>
-		<div><b>Selected Publications:</b> (* Equal contribution, # Corresponding author) 
-			<span class="journal">Journal</span> <span class="conf">Conference</span> <span class="arxiv">Preprint</span></div>
-		
-		<!--
-		
-		<div class="pub"><label class="arxiv">Arxiv</label> &#x2022; Y. Zhang, <b>F. Liang#</b>, X. Zhang, C. Li, X. Fan, X. Hu#, 
-			"Tri-LoRAMoE: Tackling Multi-Task Conflict via a Task-Guided Two-Stage Training Paradigm with General Knowledge Personalization", <i></i> 2025. <b></b></div>
-		<div class="pub"><label class="arxiv">Arxiv</label> &#x2022; Z. Deng, C. Li, Y. Zhang, <b>F. Liang#</b>, X. Zhang, X. Hu#, 
-			"Sparse Topology Pairwise Scoring for Large-Scale Multi-Agent Reinforcement Learning", <i></i> 2025. <b></b></div>
-		
-		<div class="pub"><label class="arxiv">Arxiv</label> &#x2022; J. Chen, X. Yuan, W. Wang, Y. Li, L. Dong, <b>F. Liang</b>, C. Shi, X. Hu, 
-			"WatermarkLab: A Comprehensive Framework for Robust Image Watermarks Benchmarking and Development", <i></i> 2025. <b></b></div>
-		<div class="pub"><label class="arxiv">Arxiv</label> &#x2022; S. Li, G. Yuan, C. Li, <b>F. Liang</b>, R. Zeng, E. C. H. Ngai, X. Hu, 
-			"Beyond IDs: a Collaborative Fine-Grained Semantic-Aware Framework for Multimodal Sequential Recommendation", <i></i> 2025. <b></b></div>
-		<div class="pub"><label class="arxiv">Arxiv</label> &#x2022; Y. Qin, H. Duan, <b>F. Liang</b>, X. Fan, C. Zhang, X. Hu, 
-			"'What I Sign Is Not What I See': Towards Explainable and Trustworthy Cryptocurrency Wallet Signatures", <i></i> 2025. <b></b></div>
-		<div class="pub"><label class="arxiv">Arxiv</label> &#x2022; <b>F. Liang</b>, Y. Xu, H. Duan, C. Chen, X. Hu, 
-			"HetMG: Rethinking Hybrid-Parallel Training in Heterogeneous-Capacity Clusters", <i></i> 2025. <b></b></div>
-		<div class="pub"><label class="arxiv">Arxiv</label> &#x2022; J. Zhu, D. Fan#, J. Zhuang, X. Li, X. He, H. Gong, Z. Liu, D. Cai, <b>F. Liang#</b>, G. Li#, J. Hu#, 
-			"EndoAgent: A Hierarchical Multi-Modal Agent System for Capsule Endoscopy Video Analysis", <i></i> 2025. <b></b></div>
-		<div class="pub"><label class="arxiv">Arxiv</label> &#x2022; J. Zhang, <b>F. Liang#</b>, Y. Zhang, Z. Shangguan, Z. Li, X. Fan, V. C. M. Leung, G. Li#， X. Hu#, 
-			"ROARS: A Cloud-Based Resolution-Native Framework for Large-Scale Remote Sensing Multimodal Analysis", <i></i> 2026. <b></b></div>
-		<div class="pub"><label class="arxiv">Arxiv</label> &#x2022; S. Li, G. Yuan, J. Xu, C. Li, <b>F. Liang</b>, R. Zeng, E. C. H. Ngai, X. Hu, 
-			"MoCoRec: Multimodal Semantic Co-occurrence Aware Sequential Recommendation", <i></i> 2026. <b></b></div>
-		<div class="pub"><label class="arxiv">Arxiv</label> &#x2022; Q. Yang, <b>F. Liang</b>, Z. Deng, Y. Zhang, X. Hu, 
-			"PatMask: A Pluggable Adversarial Topology Mask for Multi-Agent Reinforcement Learning under Communication Disconnection", <i></i> 2026. <b></b></div>
-		
-			-->
-		<div class="pub"><label class="arxiv">Arxiv</label> &#x2022; J. Zhang, <b>F. Liang#</b>, Y. Zhang, W. Wang, R. Zeng, X. Hu#, 
-			"Sparse Shortcuts: Facilitating Efficient Fusion in Multimodal Large Language Models". <i></i> <b></b> 
-			[<a href="https://www.arxiv.org/abs/2602.00505" target="_blank">link</a>|<a href="https://www.arxiv.org/pdf/2602.00505" target="_blank">pdf</a>|<a href="https://github.com/DistriAI/SparseCut" target="_blank">code</a>]</div>
-		<div class="pub"><label class="arxiv">Arxiv</label> &#x2022; <b>F. Liang</b>, Z. Zhang, H. Lu, C. Li, V. C. M. Leung, Y. Guo, and X. Hu, "Resource Allocation and Workload Scheduling for Large-Scale Distributed Deep Learning: A Survey", <i></i> <b></b>  [<a href="https://arxiv.org/abs/2406.08115" target="_blank">link</a> |<a href="https://arxiv.org/pdf/2406.08115.pdf" target="_blank">pdf</a>]</div>
-		<div class="pub"><label class="arxiv">Arxiv</label> &#x2022; <b>F. Liang</b>, Z. Zhang, H. Lu, V. C. M. Leung, Y. Guo, and X. Hu, "Communication-Efficient Large-Scale Distributed Deep Learning: A Comprehensive Survey", <i></i>  <b></b>  [<a href="https://arxiv.org/abs/2404.06114" target="_blank">link</a> |<a href="https://arxiv.org/pdf/2404.06114.pdf" target="_blank">pdf</a>]</div>
-		<div class="pub"><label class="arxiv">Arxiv</label> &#x2022; D. Chen, F. Fang, S. Ni, <b>F. Liang</b>, R. Xu, M. Yang, C. Li, "Lower Layer Matters: Alleviating Hallucination via Multi-Layer Fusion Contrastive Decoding with Truthfulness Refocused", <i></i> <b></b>  [<a href="https://arxiv.org/abs/2408.08769" target="_blank">link</a> |<a href="https://arxiv.org/pdf/2408.08769.pdf" target="_blank">pdf</a>]</div>
-
-		<div class="pub"><label class="conf">ICASSP'26</label> &#x2022; R. Zeng, Y. Wang, Y. Zhuo, <b>F. Liang</b>, H. Duan, H. Li, 
-			"Text Semantics-Guided Dual-Teacher Knowledge Distillation for Partially Relevant Video Retrieval", 
-			<i>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</i>, Barcelona, Spain, May 4-8, 2026, to appear. (<b>CCF-B</b>, AR: 40%)
-		</div>
-		<div class="pub"><label class="conf">ICDE'26</label> &#x2022; T. Li*, <b>F. Liang*</b>, J. Quan, Z. Yang, T. Wang, R. Huang, X. Hu, M. Li, H. Dai,
-			"Robust Index Benefit Estimation via Hierarchical and Two-dimensional Feature Representation", 
-			<i>42nd IEEE International Conference on Data Engineering (ICDE)</i>, Montréal, Canada, May 4-8, 2026, to appear. (<b>CCF-A</b>) 
-			[<a href="paper/eddie_icde25.pdf" target="_blank">pdf</a>|<a href="https://github.com/quanjnq/Eddie" target="_blank">code</a>]</div>
-		<div class="pub"><label class="conf">ICCV'25</label> &#x2022; Y. Zhang, <b>F. Liang#</b>, G. Yuan, M. Yang, C. Li, X. Hu#, 
-			"FedPall: Prototype-based Adversarial and Collaborative Learning for Federated Learning with Feature Drift", 
-			<i>International Conference on Computer Vision (ICCV)</i>, Hawaii, USA, Oct 19-23, 2025. (<b>CCF-A</b>, AR: 24%)
-			[<a href="https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_FedPall_Prototype-based_Adversarial_and_Collaborative_Learning_for_Federated_Learning_with_ICCV_2025_paper.html" target="_blank">link</a>|<a href="paper/fedpall_iccv25.pdf" target="_blank">pdf</a>|<a href="https://github.com/DistriAI/FedPall" target="_blank">code</a>]
-		</div>
-		<div class="pub"><label class="conf">AAAI'25</label> &#x2022; H. Lu, J. Chen, <b>F. Liang</b>, M. Tan, R. Zeng, and X. Hu, 
-			"Understanding Emotional Body Expressions via Large Language Models", 
-			<i>39th Annual AAAI Conference on Artificial Intelligence (AAAI)</i>, Philadelphia, USA, Feb 25 - Mar 4, 2025. (<b>CCF-A</b>, AR: 23.4%, oral)  
-			[<a href="https://doi.org/10.1609/aaai.v39i2.32135" target="_blank">link</a>|<a href="./paper/EAILLM_aaai25.pdf" target="_blank">pdf</a>]
-		</div>
-		<div class="pub"><label class="conf">EDBT'25</label> &#x2022; T. Li*, <b>F. Liang*</b>, J. Quan, C. Huang, T. Wang, R. Huang, J. Wu, and X. Hu, 
-			"Taste: Towards Practical Deep Learning-based Approaches for Semantic Type Detection in the Cloud", 
-			<i>28th International Conference on Extending Database Technology (EDBT)</i>, pp. 324-336, Barcelona, Spain, Mar 25-28, 2025. (<b>CCF-B</b>, AR: 20.8%)  
-			[<a href="https://doi.org/10.48786/edbt.2025.26" target="_blank">pdf</a>|<a href="https://github.com/ncols-bytes/taste.git" target="_blank">code</a>]</div>
-		<div class="pub"><label class="conf">ACSAC'17</label> &#x2022; J. Jiang, S. Zhao, D. Alsayed, Y. Wang, H. Cui, <b>F. Liang</b>, and Z. Gu, 
-			"Kakute: A Precise, Unified Information Flow Analysis System for Big-data Security</a>", 
-			<i>33rd Annual Computer Security Applications Conference (ACSAC)</i>, Orlando, USA, 2017. (<b>CCF-B, *Distinguished Paper Award</b>, AR: 19.8%) 
-			[<a href="https://doi.org/10.1145/3134600.3134607" target="_blank">link</a>|<a href="./paper/acsac17-kakute.pdf" target="_blank">pdf</a>|<a href="http://github.com/hku-systems/kakute" target="_blank">code</a>] </div>
-		<div class="pub"><label class="conf">HPDC'16</label> &#x2022; <b>F. Liang</b> and F.C.M. Lau, 
-			"BAShuffler: Maximizing Network BAndwidth Utilization in the Shuffle of YARN", 
-			<i>25th ACM Symposium on High-Performance Parallel and Distributed Computing (HPDC)</i>, Kyoto, Japan, May 31 - June 4, 2016. (<b>CCF-B</b>, AR: 22.5%) 
-			[<a href="https://doi.org/10.1145/2907294.2907296" target="_blank">link</a>|<a href="./paper/bashuffler_hpdc16.pdf" target="_blank">pdf</a>]</div>
-		<div class="pub"><label class="conf">IPDPS'15</label> &#x2022; <b>F. Liang</b> and F.C.M. Lau, 
-			"SMapReduce: Optimising Resource Allocation by Managing Working Slots at Runtime", 
-			<i>29th IEEE International Parallel & Distributed Processing Symposium (IPDPS)</i>, Hyderabad, India, May 25-29, 2015. (<b>CCF-B</b>, AR: 22.0%) 
-			[<a href="https://doi.org/10.1109/IPDPS.2015.17" target="_blank">link</a>|<a href="./paper/SMapReduce_final.pdf" target="_blank">pdf</a>]</div>
-
-		
-		<div class="pub"><label class="journal">CGH</label> &#x2022; D. Fan*, Y. Mao*, <b>F. Liang*</b>, Z. Liu*, M. Wang*, H. Li, J. Tang, Y. Liu, Y. Qian, J. Chen, N. Wang, T. Yang, S. Tan, G. Li, F. GAO, J. Hu, X. Wu, 
-			"INTELCAPE: A Deep Learning-Powered System for Automated, High-Accuracy Crohn’s Disease Diagnosis via Capsule Endoscopy", 
-			<i>Clinical Gastroenterology and Hepatology (CGH)</i>, 2026. <b>(Q1)</b>
-			[<a href="paper/intelcape-cgh26.pdf">pdf</a>]
-		</div>
-		<div class="pub"><label class="journal">IoTJ</label> &#x2022; J. Zhang, Y. Xu, S. Li, <b>F. Liang#</b>, H. Duan, Y. Dong, V. C. M. Leung, X. Hu#, 
-			"FedSM: Semantic-Guided Feature Mixup for Bias Reduction in Federated Learning with Long-Tail Data", 
-			<i>IEEE Internet of Things Journal (IoTJ)</i>, 2026. <b>(CCF-C, Q1)</b>
-			[<a href="https://doi.org/10.1109/JIOT.2026.3652363" target="_blank">link</a>|<a href="paper/fedsm_iotj26.pdf" target="_blank">pdf</a>|<a href="https://github.com/DistriAI/FedSM" target="_blank">code</a>]
-		</div>
-		<div class="pub"><label class="journal">JBHI</label> &#x2022; J. Mo, Y. Chen, R. Lin, Y. Ni, <b>F. Liang</b>, M. Zeng, X. Hu, and M. Li, "MoChat: Joints-Grouped Spatio-Temporal
-			Grounding Multimodal Large Language Model for Multi-Turn Motion Comprehension and Description", 
-			<i>IEEE Journal of Biomedical and Health Informatics (JBHI)</i>, 2025. <b>(CCF-C, Q1)</b>
-			[<a href="https://doi.org/10.1109/JBHI.2025.3631045" target="_blank">link</a>|<a href="paper/mochat_jbhi25.pdf" target="_blank">pdf</a>]
-		</div>
-		<div class="pub"><label class="journal">IoTJ</label> &#x2022; Z. Zhang, <b>F. Liang</b>, W. Wang, R. Zeng, V.C.M. Leung, and X. Hu, 
-			"Skeleton-Based Pre-Training with Discrete Labels for Emotion Recognition in IoT Environments", 
-			<i>IEEE Internet of Things Journal (IoTJ)</i>, vol. 12, no. 15, pp. 31856-31868, 2025. <b>(CCF-C, Q1)</b> 
-			[<a href="https://doi.org/10.1109/JIOT.2025.3574456" target="_blank">link</a>|<a href="paper/airSkeleton_iotj25.pdf" target="_blank">pdf</a>]</div>
-		<div class="pub"><label class="journal">INS</label> &#x2022; <b>F. Liang</b>, F.C.M. Lau, H. Cui, Y. Li, B. Lin, C. Li, and X. Hu, 
-			"RelJoin: Relative-cost-based Selection of Distributed Join Methods for Query Plan Optimization</a>", 
-			<i>Information Sciences (IS)</i>, vol. 658, 2024. <b>(CCF-B, Q1<!--, IF: 8.1-->)</b> 
-			[<a href="https://doi.org/10.1016/j.ins.2023.120022" target="_blank">link</a>|<a href="https://arxiv.org/pdf/2311.14311" target="_blank">pdf</a>|<a href="https://github.com/liangfengsid/relJoin" target="_blank">code</a>]</div>
-		<div class="pub"><label class="journal">TNSM</label> &#x2022; W. Guo, B. Lin, G. Chen, Y. Chen, and <b>F. Liang</b>, 
-			"Cost-Driven Scheduling for Deadline-Based Workflow Across Multiple Clouds</a>", 
-			<i>IEEE Transactions on Network and Service Management (TNSM)</i>, vol. 15, no. 4, pp. 1571-1585, Dec. 2018. <b>(CCF-C, Q1<!--, IF:5.3-->)</b> 
-			[<a href="https://doi.org/10.1109/TNSM.2018.2872066" target="_blank">link</a>|<a href="paper/costWorkflow_tnsm18.pdf" target="_blank">pdf</a>]</div>
-		<div class="pub"><label class="journal">TPDS</label> &#x2022; <b>F. Liang</b>, F.C.M. Lau, H. Cui, and C.-L. Wang, 
-			"Confluence: Speeding Up Iterative Distributed Operations by Key-dependency-aware Partitioning", 
-			<i>IEEE Transactions on Parallel and Distributed Systems (TPDS)</i>, 2018. <b>(CCF-A<!--, IF:5.3-->)</b> 
-			[<a href="https://doi.org/10.1109/TPDS.2017.2756054" target="_blank">link</a>|<a href="paper/confluence_tpds17.pdf" target="_blank">pdf</a>]</div>
-
-		<!--
-		<div>&#x2022; D. Liu, J. Chen, <b>F. Liang</b> and X. Fan, "A Performance Analysis for Hadoop under Heterogeneous Cloud Computing Environments", <i>Journal of Integration Technology</i>, Issue 4, 2012. [<a href="https://jcjs.siat.ac.cn/jcjsen/article/abstract/201211008?st=virtual&special_id=20201021190818001" target="_blank">link</a> | <a href="./paper/heterHadoop_jit12.pdf" target="_blank">pdf</a>]</div>
--->	
-	</div>
-	<p/>
-
-	<div>
-		<div><b>Patents:</b></div>
-		<div>[PCT/CN] "Log Processing Method, Related Device, and System", LU Yuanfei, <b>LIANG Feng</b> and LIU Cunwei, owned by Huawei, Pub. No.: WO/2019/109953, June 2019.</div>
-		<div>[PCT/CN] "Configuration Modification Method for Storage Cluster, Storage Cluster and Computer System", ZHOU Siyi, <b>LIANG Feng</b>, ZHI Yanan and HUANG Xihua, owned by Huawei, Pub. No.: WO/2019/085875, May 2019.</div>
-	</div>
-
-	<p/>
-	<span><b>Teaching Experience:</b></span><br/>
-	<span>Programming Design and Practice, fall 2023</span>
-	<br/>
-	<span>Parallel and Distributed Progamming, spring 2024</span>
-	<br/>
-	<span>Teaching assistant of Computer Architecture, Programming in C++, Operating System, Web Technology, 2012-2016</span>
-
-	<p/>
-	<span><b>Academic activities:</b></span><br/>
-	<span>PC Member, The 40th Annual AAAI Conference on Artificial Intelligence (<a href="https://aaai.org/conference/aaai/aaai-26/" target="_blank">AAAI</a>) 2025-2026</span>
-	<br/>
-	<span>Tutorial Chair, The 16th IEEE International Conference on Cloud Computing Technology and Science (<a href="http://www.cloudcom2025.org/" target="_blank">CloudCom</a>) 2025</span>
-	<br/>
-	<span>Publicity Chair, 8th IEEE International Conference on Smart Internet of Things (<a href="https://www.ieee-smartiot.org/index.jsp" target="_blank">SmartIoT</a>) 2024</span>
-	<br/>
-	<span>TPC Member, 10th International Conference on Big Data Computing and Communications (<a href="https://bigcom2024.com/index.html" target="_blank">BIGCOM</a>) 2024</span>
-	<br/>
-	<span>TPC Member, 44th IEEE International Conference on Distributed Computing Systems (<a href="https://icdcs2024.icdcs.org/" target="_blank">ICDCS</a>), 2024</span>
-	<br/>
-	<span>Distinguished contributor, 19th EAI International Conference on Heterogeneous Networking for Quality, Reliability, Security and Robustness (<a href="https://qshine.eai-conferences.org/2023/" target="_blank">Qshine</a>), 2023</span>
-	<br/>
-	<span>TPC Member, The 2nd International Workshop on Social and Metaverse Computing and Networking (<a href="https://socialmeta2023.github.io/" target="_blank">SocialMeta</a>), 2023</span>
-	<br/>
-	<span>Session chair, the 11th WorkShop on High-Performance, Power-Aware Computing (IPDPS-HPPAC), 2015</span>
-	<!-- <br/>
-	<span>Reviewer of Journal of Interconnection Network (JOIN), 2013</span>
-	<br/>
-	<span>Reviewer of The 22nd IEEE International Conference on Parallel and Distributed Systems (ICPADS), 2016</span> -->
-
-	<div>
-		<div><b>Awards and Grants:</b></div>
-		<div>Overseas High-Caliber Personnel in Shenzhen, China</div>
-		<div>Shenzhen Overseas Entrepreneurship Fund, 2020-2021</div>
-		<div>Semi-finalists of the Innovation and Entrepreneurship Competition of Shenzhen, 2020</div>
-		<div>Semi-finalists of the China Innovation and Entrepreneurship Competition for SMEs, 2019&2020, respectively</div>
-		<div>TCPP Conference Travel Grant (2015)</div>
-		<div>Postgraduate Scholarship of The University of Hong Kong, 2012-2016</div>
-		<div>Outstanding Graduate, Nanjing University, 2012</div>
-		<div>Excellent Award of the Innovation Cup, Software Institute, Nanjing University, 2011</div>
-		<div>Excellent Student Award, Software Institute, Nanjing University, 2009&2010, respectively</div>
-		<div>Second prize of People's Scholarship, and Second prize of Social Work Scholarship, Nanjing University, 2010</div>
-		<div>Excellent Staff of Student Union, Software Institute, Nanjing University, 2010</div>
-		<div>First prize of People's Scholarship, Nanjing University, 2009</div>
-
-	</div>
-
-	<p/>
-	<div>
-		<div><b>Events: </b></div>
-		<div>Program Chair of <a href="http://www.cs.hku.hk/ccc2014/index.html">Canadian Computing Competition Hong Kong Contest (CCC)</a>, 2014</div>
-		<div>Web Master of <a target="_blank" href="http://www.lapcheecollege.hku.hk">Lap-Chee College</a>, The University of Hong Kong, 2013-2015</div>								
-	</div>
-
-	<p/>
-
-	<!--
-	<div>
-		<div><h2>***New*** Open source project:</h2></div>
-		<p/>
-		<div><h3>TensorOnSpark</h3> 
-		TensorOnSpark is a fast, scalable and reliable distributed framework for machine learning (deep learning). TensorFlow programs can run on Spark seamlessly with redundant distributed resources and high accuracy. It currently supports Python on Linux and Mac OS. The release and source and can be downloaded via Pypi and Github, respectly. 
-		<br/>
-		<a href="https://github.com/liangfengsid/tensoronspark" target="_blank">Github</a> &nbsp;&nbsp;&nbsp;
-		<a href="https://pypi.python.org/pypi/tensorspark/" target="_blank">Pypi Repository</a></div>
-	</div>
-	<p/>
-	-->
-<!--
-<p/>
-<img src="img/flute.jpg"/>
-<br/>
-<span>Other interests: Painting, flute, soccer and dota.</span>
--->
-	<!-- <div>
-		<a title="Google Analytics Alternative" href="http://clicky.com/100968261"><img alt="Google Analytics Alternative" src="//static.getclicky.com/media/links/badge.gif" border="0"/></a>
-<script src="//static.getclicky.com/js" type="text/javascript"></script>
-<script type="text/javascript">try{ clicky.init(100968261); }catch(e){}</script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100968261ns.gif" /></p></noscript>
-	</div> -->
-
-</div>
 </body>
+</html>
