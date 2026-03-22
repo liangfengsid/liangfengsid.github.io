@@ -180,11 +180,11 @@
                 
                 <div class="pub">
                     <div class="pub-header"><label class="journal">CGH</label> <a href="https://doi.org/10.1016/j.cgh.2026.02.026" target="_blank">link</a> <a href="https://github.com/liuzh385/INTELCAPE" target="_blank">code</a>
-                        <!--<a href="paper/intelcape-cgh26.pdf">pdf</a>-->
+                        <a href="paper/intelcape-cgh26.pdf" target="_blank" id="intelcape-cgh-pdf" hidden>pdf</a>
                     </div>
                     <div class="pub-authors">D. Fan*, Y. Mao*, <b>F. Liang*</b>, Z. Liu*, M. Wang*, H. Li, J. Tang, Y. Liu, Y. Qian, J. Chen, N. Wang, T. Yang, S. Tan, G. Li, F. GAO, J. Hu, X. Wu</div>
                     <div class="pub-title">"INTELCAPE: A Deep Learning-Powered System for Automated, High-Accuracy Crohn's Disease Diagnosis via Capsule Endoscopy"</div>
-                    <div class="pub-venue"><i>Clinical Gastroenterology and Hepatology (CGH)</i>, 2026. <b>(Q1)</b></div>
+                    <div class="pub-venue"><i>Clinical Gastroenterology and Hepatology (CGH)</i>, 2026. <b>(Q1, IF:12.2)</b></div>
                 </div>
                 <div class="pub">
                     <div class="pub-header"><label class="journal">IoTJ</label> <a href="https://doi.org/10.1109/JIOT.2026.3652363" target="_blank">link</a> <a href="paper/fedsm_iotj26.pdf" target="_blank">pdf</a> <a href="https://github.com/DistriAI/FedSM" target="_blank">code</a></div>
@@ -319,5 +319,14 @@
     </div>
 </div>
 
+<script>
+(function () {
+    var el = document.getElementById('intelcape-cgh-pdf');
+    if (!el) return;
+    // Visible from local midnight 20 Mar 2027 onward (i.e. after 19 Mar 2027).
+    var unlock = new Date(2027, 2, 20);
+    if (new Date() >= unlock) el.removeAttribute('hidden');
+})();
+</script>
 </body>
 </html>
