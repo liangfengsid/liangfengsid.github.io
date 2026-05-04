@@ -271,8 +271,8 @@ body {
 }
 
 .pub {
-    margin: 10px 0;
-    padding: 10px;
+    margin: 5px 0;
+    padding: 5px;
     background: #f8f9fa;
     border-left: 4px solid #667eea;
     border-radius: 4px;
@@ -295,11 +295,11 @@ body {
     font-size: 0.85em;
     font-weight: 600;
     margin-right: 8px;
-    margin-bottom: 4px;
+    margin-bottom: 0px;
 }
 
 .pub-header {
-    margin-bottom: 3px;
+    margin-bottom: 2px;
     line-height: 1.4;
 }
 
@@ -327,13 +327,13 @@ body {
 }
 
 .pub-authors {
-    margin-bottom: 3px;
+    margin-bottom: 1px;
     color: #333;
     line-height: 1.4;
 }
 
 .pub-title {
-    margin-bottom: 3px;
+    margin-bottom: 1px;
     font-weight: 600;
     color: #333;
     line-height: 1.4;
