@@ -321,10 +321,37 @@
 <script>
 (function () {
     var el = document.getElementById('intelcape-cgh-pdf');
-    if (!el) return;
-    // Visible from local midnight 20 Mar 2027 onward (i.e. after 19 Mar 2027).
-    var unlock = new Date(2027, 2, 20);
-    if (new Date() >= unlock) el.removeAttribute('hidden');
+    if (el) {
+        var unlock = new Date(2027, 2, 20);
+        if (new Date() >= unlock) el.removeAttribute('hidden');
+    }
+
+    var navLinks = document.querySelectorAll('.navbar a');
+    var sections = Array.prototype.slice.call(document.querySelectorAll('.section[id]'));
+
+    function setActiveNav() {
+        var scrollPos = window.scrollY + 100;
+        var current = sections[0];
+        for (var i = 0; i < sections.length; i++) {
+            if (sections[i].offsetTop <= scrollPos) current = sections[i];
+        }
+        navLinks.forEach(function (link) {
+            link.classList.toggle('active', link.getAttribute('href') === '#' + current.id);
+        });
+    }
+
+    navLinks.forEach(function (link) {
+        link.addEventListener('click', function (e) {
+            var target = document.querySelector(link.getAttribute('href'));
+            if (!target) return;
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            history.replaceState(null, '', link.getAttribute('href'));
+        });
+    });
+
+    window.addEventListener('scroll', setActiveNav, { passive: true });
+    setActiveNav();
 })();
 </script>
 </body>
