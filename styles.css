@@ -263,8 +263,8 @@ body {
 
 /* ---- Publications ---- */
 .pub {
-    margin: 0 0 16px;
-    padding: 10px 0 10px 12px;
+    margin: 0 0 5px;
+    padding: 3px 0 3px 12px;
     border-left: 2px solid #e8e8e8;
     line-height: 1.55;
     transition: border-color 0.15s;
